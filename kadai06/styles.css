@@ -1,0 +1,15 @@
+<style>
+ .gallery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px; /* 画像間の間隔 */
+ }
+ .photo {
+   flex: 1 1 calc(25% - 10px); /* 4列にするための設定 */
+   box-sizing: border-box;
+ }
+ .photo img {
+   width: 100%; /* 親要素に合わせて画像を縮小 */
+   height: auto;
+ }
+</style>
